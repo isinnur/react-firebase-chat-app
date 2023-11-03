@@ -11,7 +11,9 @@ export default function Register() {
           <input type="email" placeholder="email" />
           <input type="password" placeholder="password" />
           <input style={{ display: "none" }} type="file" id="file" />
-          <label htmlFor="file">sasasa</label>
+          <label htmlFor="file">
+            <img src="" alt=""></img>
+          </label>
           <button>Sign up</button>
         </form>
         <p>You do have an account? Login</p>
