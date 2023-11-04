@@ -5,7 +5,7 @@ export default function Register() {
   return (
     <div className="formContainer">
       <div className="formWrapper">
-        <span className="logo">CHAT CHAT CHAT</span>
+        <span className="logo">WizChat</span>
         <span className="title">Register</span>
         <form>
           <input type="text" placeholder="display name" />
