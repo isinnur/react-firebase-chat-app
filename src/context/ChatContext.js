@@ -11,9 +11,9 @@ import { AuthContext } from "./AuthContext";
 
 export const ChatContext = createContext(); //kullanıcı oturum açma durumunu izler
 
-const { currentUser } = useContext(AuthContext);
-
 export const ChatContextProvider = ({ children }) => {
+  const { currentUser } = useContext(AuthContext);
+
   const INITIAL_STATE = {
     chatId: "null",
     user: {},
