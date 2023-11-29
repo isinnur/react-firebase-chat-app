@@ -23,7 +23,7 @@
 }
 
 .formContainer {
-  background-color: #a7bcff;
+  background-color: #d3d3d3;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -39,13 +39,13 @@
     align-items: center;
 
     .logo {
-      color: #5d5b8d;
+      color: #44d7b6;
       font-weight: bold;
       font-size: 24px;
     }
 
     .title {
-      color: #5d5b8d;
+      color: #44d7b6;
       font-size: 12px;
     }
 
@@ -58,14 +58,14 @@
         padding: 15px;
         border: none;
         width: 250px;
-        border-bottom: 1px solid #a7bcff;
+        border-bottom: 1px solid #d3d3d3;
         &::placeholder {
           color: rgb(175, 175, 175);
         }
       }
 
       button {
-        background-color: #7b96ec;
+        background-color: #44d7b6;
         color: white;
         padding: 10px;
         font-weight: bold;
@@ -77,7 +77,7 @@
         display: flex;
         align-items: center;
         gap: 10px;
-        color: #8da4f1;
+        color: #44d7b6;
         font-size: 12px;
         cursor: pointer;
 
@@ -87,7 +87,7 @@
       }
     }
     p {
-      color: #5d5b8d;
+      color: #44d7b6;
       font-size: 12px;
       margin-top: 10px;
     }
@@ -95,7 +95,7 @@
 }
 
 .home {
-  background-color: #a7bcff;
+  background-color: #d3d3d3;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -114,17 +114,17 @@
 
     .sidebar {
       flex: 1;
-      background-color: #3e3c61;
+      background-color: #262626;
       position: relative;
 
       .navbar {
         display: flex;
         align-items: center;
-        background-color: #2f2d52;
+        background-color: #262626;
         height: 50px;
         padding: 10px;
         justify-content: space-between;
-        color: #ddddf7;
+        color: #fff;
 
         .logo {
           font-weight: bold;
@@ -138,7 +138,7 @@
           gap: 10px;
 
           img {
-            background-color: #ddddf7;
+            background-color: #fff;
             height: 24px;
             width: 24px;
             border-radius: 50%;
@@ -146,8 +146,8 @@
           }
 
           button {
-            background-color: #5d5b8d;
-            color: #ddddf7;
+            background-color: #44d7b6;
+            color: #fff;
             font-size: 10px;
             border: none;
             cursor: pointer;
@@ -186,7 +186,7 @@
         cursor: pointer;
 
         &:hover {
-          background-color: #2f2d52;
+          background-color: #262626;
         }
 
         img {
@@ -213,12 +213,12 @@
 
       .chatInfo {
         height: 50px;
-        background-color: #5d5b8d;
+        background-color: #44d7b6;
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 10px;
-        color: lightgray;
+        color: white;
       }
 
       .chatIcons {
@@ -232,7 +232,7 @@
       }
 
       .messages {
-        background-color: #ddddf7;
+        background-color: #fff;
         padding: 10px;
         height: calc(100% - 100px);
         overflow-y: scroll;
@@ -279,7 +279,7 @@
             .messageContent {
               align-items: flex-end;
               p {
-                background-color: #8da4f1;
+                background-color: #44d7b6;
                 color: white;
                 border-radius: 10px 0px 10px 10px;
               }
@@ -300,7 +300,7 @@
           width: 100%;
           border: none;
           outline: none;
-          color: #2f2d52;
+          color: #262626;
           font-size: 18px;
 
           &::placeholder {
@@ -322,7 +322,7 @@
             border: none;
             padding: 10px 15px;
             color: white;
-            background-color: #8da4f1;
+            background-color: #44d7b6;
             cursor: pointer;
           }
         }
