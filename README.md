@@ -1,4 +1,4 @@
-# React Firebase Chat App
+# Chat App
 
 This is a simple chat application built using React and Firebase. Users can log in, log out, and engage in conversations by searching for and chatting with others.
 
